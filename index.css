@@ -1,0 +1,149 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#FFDAB9;
+}
+h1 h2 h3{
+color: #000000;
+}
+.botao{
+    color:#ffffff;
+    text-decoration: none;
+    padding: 1px 3px;
+    background-color :	#D8BFD8;
+    border-radius: 3px;
+    color: black;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Georgia, serif;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0%;
+    width: 100%;
+}
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    colo:3 #000000;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./imagns/fundo4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    color: #000000;
+}
+header P{
+    margin-bottom: 2mm;
+
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #000000;
+}
+.sobre h2{
+    color: #000000;
+}
+.sobre p{
+    margin-bottom: 2.5em;
+    max-width: 100px;
+}
+.sobre .botao{
+    background-color: 	#D8BFD8;
+    color: black;
+}
+.servico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+.servico div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.fotos h2{
+    margin-bottom: 20px;
+}
+.fotos img{
+    width: 40%;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.contato h2{
+    color: #000000
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color:#D8BFD8 ;
+    columns: #000000;
+}
+ footer a {
+    text-decoration: none;
+    color: #000000;
+}
+.topo{
+    font-size: 20px;
+}
+
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+    
+    }
+    .coluna{
+      float: left;
+      width: 130%;
+      overflow: hidden;
+      border-radius: 0%;
+    }
+    .row{
+      clear: both;
+      display: table; 
+      border-radius: 10px;
+    }
